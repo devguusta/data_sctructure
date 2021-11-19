@@ -22,21 +22,21 @@ void main() {
     20,
     21,
     22,
-    41,
-    42,
-    35,
+    23,
+    24,
+    25,
     26,
-    131,
-    92,
-    123,
-    90,
+    27,
+    28,
+    29,
+    30,
   ];
   int userValue = list[5];
   int max = list.length - 1;
   int min = 0;
 
   binarySearch(userValue: userValue, min: min, max: max, list: list);
-  binary(list: list, item: 123);
+  binary(list: list, item: list[11]);
 }
 
 binary({required List<int> list, required int item}) {
